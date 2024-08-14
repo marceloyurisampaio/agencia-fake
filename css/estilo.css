@@ -21,7 +21,7 @@ body{
 .logo{
     flex: 20%;
     margin-left: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -65,8 +65,10 @@ body{
 .header{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    background: grey;
+    background: white;
 }
 
 .headline{
@@ -74,8 +76,68 @@ body{
     margin-left: 10%;
 }
 
+.contact-btn{
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #180f4a;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
 .img-headline{
     flex: 40%;
     margin-right: 10%;
     text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid pink;
 }
