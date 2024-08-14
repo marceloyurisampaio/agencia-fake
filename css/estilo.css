@@ -10,12 +10,14 @@ body{
 }
 
 .navbar{
+    position: fixed;
     display: flex;
     flex-flow: row, wrap;
     height: 100px;
     background-color: white;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .logo{
@@ -69,6 +71,7 @@ body{
     align-items: center;
     height: auto;
     background: white;
+    padding-top: 100px;
 }
 
 .headline{
@@ -183,4 +186,12 @@ footer{
     font-family: "Lobster", sans-serif;
     color:  white;
     font-size: 34px
+}
+
+.whats{
+    background: white;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
 }
