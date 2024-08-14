@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-flow: row, wrap;
     height: 100px;
-    background-color: blue;
+    background-color: white;
     justify-content: center;
     align-items: center;
 }
@@ -21,7 +21,6 @@ body{
 .logo{
     flex: 20%;
     margin-left: 10%;
-    border:1px solid red;
     text-align: center;
 }
 
@@ -33,7 +32,6 @@ body{
 
 .menu{
     flex:70%;
-    border: 1px solid green;
     text-align: right;
     padding: 20px;
 }
@@ -48,4 +46,36 @@ body{
 .menu a:hover{
     color: #FF2978;
     border-top: 4px solid #180f4a;
+}
+
+#botao-fale-conosco{
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao-fale-conosco:hover{
+    border: none;
+    background: #FF2978;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background: grey;
+}
+
+.headline{
+    flex:40%;
+    margin-left: 10%;
+}
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
 }
